@@ -1,21 +1,19 @@
-import React  from "react";
-import { Merriweather } from "next/font/google" ;
-import "./globals.css";
+// app/layout.tsx or app/layout.jsx
+import React from "react";
+import './globals.css' ;
+export const Metadata = {
+  title: "Your Website Title",
+  description: "Your Website Description",
+};
 
-const merriweather = Merriweather({ 
-  weight: '400',
-  style: ['normal', 'italic'],
-  subsets: ['latin'],
-})
-const  RootLayout = ({ children }) =>{
-
+const RootLayout = ({ children }) => {
   return (
     <html lang="en">
-      <body className={merriweather.className}>
-      {children}
+      <body>
+        {children}
       </body>
     </html>
   );
-}
+};
 
-export default RootLayout ;
+export default RootLayout;

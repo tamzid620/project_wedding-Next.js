@@ -4,7 +4,7 @@ import { IoIosArrowDropupCircle } from "react-icons/io";
 import Footer from '@/components/userShared/Footer/Footer';
 import Navbar from '@/components/userShared/Navbar/Navbar';
 
-const layout = ({children}) => {
+const HomeLayout = ({children}) => {
 
 
     const [isVisible, setIsVisible] = useState(false);
@@ -49,4 +49,4 @@ const layout = ({children}) => {
     );
 };
 
-export default layout;
+export default HomeLayout;

@@ -1,4 +1,4 @@
-import Banner from "@/components/userShared/Banner/page";
+import Banner from "@/components/userShared/Banner/Banner";
 import LoveStories from "@/components/userShared/LoveStories/page";
 import PricePlan from "@/components/userShared/PricePlan/page";
 import Testimonial from "@/components/userShared/Testimonial/page";
