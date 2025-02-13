@@ -25,25 +25,25 @@ const Banner = () => {
       <div>
       
         <Image
-          className=" w-full lg:h-[500px] xl:h-[600px] 2xl:h-[700px] md:h-auto sm: h-auto bg-gray-200"
+          className=" w-full lg:h-[500px] xl:h-[600px] 2xl:h-[700px] md:h-auto sm: h-auto bg-gray-200 object-cover"
           src={banner1}
           alt=""
           style={{ display: currentBanner === 1 ? "block" : "none" }}
         />
         <Image
-          className="w-full lg:h-[500px] xl:h-[600px] 2xl:h-[700px] md:h-auto sm: h-auto bg-gray-200"
+          className="w-full lg:h-[500px] xl:h-[600px] 2xl:h-[700px] md:h-auto sm: h-auto bg-gray-200 object-cover"
           src={banner2}
           alt=""
           style={{ display: currentBanner === 2 ? "block" : "none" }}
         />
         <Image
-          className="w-full lg:h-[500px] xl:h-[600px] 2xl:h-[700px] md:h-auto sm: h-auto bg-gray-200"
+          className="w-full lg:h-[500px] xl:h-[600px] 2xl:h-[700px] md:h-auto sm: h-auto bg-gray-200 object-cover"
           src={banner3}
           alt=""
           style={{ display: currentBanner === 3 ? "block" : "none" }}
         />
         <Image
-          className="w-full lg:h-[500px] xl:h-[600px] 2xl:h-[700px] md:h-auto sm: h-auto bg-gray-200"
+          className="w-full lg:h-[500px] xl:h-[600px] 2xl:h-[700px] md:h-auto sm: h-auto bg-gray-200 object-cover"
           src={banner4}
           alt=""
           style={{ display: currentBanner === 4 ? "block" : "none" }}

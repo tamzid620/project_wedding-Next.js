@@ -14,6 +14,7 @@ import Image from "next/image";
 import "./LoveStories.css";
 
 const LoveStories = () => {
+  
   const LoveStoriesData = [
     {
       id: 1,
